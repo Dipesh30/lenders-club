@@ -1,6 +1,6 @@
 uvicorn
 pandas
-jolib
+joblib
 numpy
 scipy
 matplotlib
