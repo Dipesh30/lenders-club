@@ -99,4 +99,3 @@ def Input(request: predictRequest):
             "predicted_label":str(pred_label),
             "predicted_probability":str(prob)}
 
-web: uvicorn app:fastapp --host=0.0.0.0 --port=${PORT:-5000}
