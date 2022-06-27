@@ -1,0 +1,13 @@
+uvicorn
+pandas
+joblib
+numpy
+scipy
+matplotlib
+seaborn
+fastapi
+gunicorn
+uvloop
+httptools
+pydantic
+loguru
