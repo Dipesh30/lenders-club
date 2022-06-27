@@ -11,3 +11,4 @@ uvloop
 httptools
 pydantic
 loguru
+scikit-learn
