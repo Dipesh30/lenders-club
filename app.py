@@ -1,7 +1,5 @@
 from sklearn.preprocessing import StandardScaler,QuantileTransformer
 import joblib
-from utils import read_config,load_bins
-import joblib
 import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
