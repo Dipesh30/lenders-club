@@ -9,3 +9,5 @@ fastapi
 gunicorn
 uvloop
 httptools
+pydantic
+logguru
