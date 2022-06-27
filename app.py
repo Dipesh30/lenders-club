@@ -85,7 +85,7 @@ def Input(request: predictRequest):
     logger.debug(request)
     In.append(request.dict())
     
-    predict_date = pd.DataFrame(test_data,index=[0])
+    predict_date = pd.DataFrame(In,index=[0])
     print(predict_date)
     
     # = preprocess_data(predict_date)
