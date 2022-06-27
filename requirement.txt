@@ -10,4 +10,4 @@ gunicorn
 uvloop
 httptools
 pydantic
-logguru
+loguru
