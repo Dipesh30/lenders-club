@@ -40,6 +40,8 @@ def predict(df,model,scalar_dict,cat_dict):
     label_dict = {1:"Fully Paid",0:"Charged Off"}
     x = preprocess_data(df,num_cols,cat_cols,scalar_dict,cat_dict)
     
+    print(x)
+    
     out = model.predict(x)[0]
     pred_label = label_dict[out]
     pred_prob = model.predict_proba(x)[0]
