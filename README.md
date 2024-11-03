@@ -56,7 +56,7 @@ To run the Jupyter Notebooks in this repository, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/lending-club-visualization.git
+   git@github.com:Dipesh30/lenders-club.git
 Navigate to the project directory:
 bash
 Copy code
@@ -77,8 +77,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Acknowledgments
 Lending Club
-[Any other sources or contributors you wish to acknowledge]
-vbnet
-Copy code
 
 Feel free to modify sections as needed to fit your project!
